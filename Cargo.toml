@@ -23,3 +23,6 @@ rtp = { git = "https://github.com/johni0702/rtp", rev = "6c0223d", features = ["
 libnice = "0.3"
 webrtc-sdp = "0.3"
 openssl = "0.10"
+
+[target.aarch64-unknown-linux-gnu]
+linker = "aarch64-openwrt-linux-gnu-gcc"
