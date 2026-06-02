@@ -20,6 +20,6 @@ tokio-tungstenite = "0.13"
 http = "0.2"
 tungstenite = "0.12"
 rtp = { git = "https://github.com/johni0702/rtp", rev = "6c0223d", features = ["rfc5764-openssl"] }
-libnice = "0.3"
+libnice = { git = "https://github.com/firmwarecostum/libnice", rev = "0207e51" }
 webrtc-sdp = "0.3"
 openssl = { version = "0.10", features = ["vendored"] }
